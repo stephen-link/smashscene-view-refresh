@@ -1,0 +1,30 @@
+{
+  "name": "smashscene-view-refresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen-link/smashscene-view-refresh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephen-link/smashscene-view-refresh/issues"
+  },
+  "homepage": "https://github.com/stephen-link/smashscene-view-refresh#readme",
+  "dependencies": {
+    "@googleapis/youtube": "^4.2.0",
+    "@twurple/api": "^5.1.6",
+    "@twurple/auth": "^5.1.6",
+    "knex": "^2.0.0",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0"
+  }
+}
